@@ -19,7 +19,6 @@ def sptext():
         print("Listening...")
         recognizer.adjust_for_ambient_noise(source)
         audio = recognizer.listen(source)
-        # try:
         print("Recognizing...")
         data = recognizer.recognize_google(audio)
         print(data)
