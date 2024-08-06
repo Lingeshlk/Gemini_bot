@@ -23,6 +23,7 @@ def sptext():
         data = recognizer.recognize_google(audio)
         print(data)
         return data
+        
 def speechtx(x):
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
