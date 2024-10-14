@@ -9,6 +9,7 @@ git clone https://github.com/Lingeshlk/Gemini_bot.git
 
 ```
 
+
 --> Install the requirements :
 ```bash
 pip install -r requirements.txt
